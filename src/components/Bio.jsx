@@ -1,6 +1,12 @@
 import Liquid from "./Liquid";
-import MotorRod from "./MotorRod";
 import Bessel from "./Bessel";
+import MotorRod from "./MotorRod";
+import WaterIn from "./WaterIn";
+import PumpIn from "./PumpIn";
+import PipelineElbowIn from "./PipelineElbowIn";
+import PipelineElbowOut from "./PipelineElbowOut";
+import WaterOut from "./WaterOut";
+import PumpOut from "./PumpOut";
 import MeasureLine from "./MeasureLine";
 import SpatulaLeft from "./SpatulaLeft";
 import SpatulaRight from "./SpatulaRight";
@@ -14,9 +20,20 @@ export const Bio = () => {
       className="bioreactor"
       viewBox="0 0 512 512"
     >
-      {envelope}
-      <Bessel />
+      {envelope[0]}
       <g id="svg2">
+        <g id="layer1" transform="translate(-113.75,-92.8125)">
+          <Bessel />
+          <g>
+            <MotorRod />
+          </g>
+          <WaterIn />
+          <PumpIn />
+          <PipelineElbowIn />
+          <PipelineElbowOut />
+          <WaterOut />
+          <PumpOut />
+        </g>
         <SpatulaLeft move={true} />
         <SpatulaRight move={true} />
       </g>
