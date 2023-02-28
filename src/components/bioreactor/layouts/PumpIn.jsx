@@ -1,6 +1,6 @@
 import React from "react";
 
-const WaterIn = () => {
+const PumpIn = () => {
   return (
     <>
       {/* Pump circle */}
@@ -8,7 +8,7 @@ const WaterIn = () => {
         id="path3907"
         fill="#FFFFFF"
         stroke="#000000"
-        stroke-width="2"
+        strokeWidth="2"
         d="M261.15,220.615c0,10.321-8.367,18.688-18.688,18.688
         c-10.321,0-18.688-8.367-18.688-18.688c0-10.321,8.367-18.688,18.688-18.688C252.784,201.927,261.15,210.293,261.15,220.615
         L261.15,220.615z"
@@ -17,7 +17,7 @@ const WaterIn = () => {
       <path
         id="path3909"
         stroke="#000000"
-        stroke-width="0.3537"
+        strokeWidth="0.3537"
         d="
         M246.369,228.257c-0.014-5.095,0.014-10.19,0-15.285c4.419,2.536,8.818,5.107,13.237,7.643
         C255.2,223.174,250.774,225.698,246.369,228.257z"
@@ -26,4 +26,4 @@ const WaterIn = () => {
   );
 };
 
-export default WaterIn;
+export default PumpIn;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const MotorRod = () => {
+const StepperMotorRod = () => {
   return (
     <>
       <linearGradient
@@ -24,7 +24,7 @@ const MotorRod = () => {
       <path
         fill="none"
         stroke="#000000"
-        stroke-width="0.7399"
+        strokeWidth="0.7399"
         d="M349.644,203.187c0-2.2,1.8-4,4-4h7c2.191,0,4,1.8,4,4v250.411
           c0,2.2-1.809,4-4,4h-7c-2.2,0-4-1.8-4-4V203.187z"
       ></path>
@@ -32,7 +32,7 @@ const MotorRod = () => {
       <path
         fill="none"
         stroke="#000000"
-        stroke-width="0.7399"
+        strokeWidth="0.7399"
         d="M349.644,203.187c0-2.2,1.8-4,4-4h7c2.191,0,4,1.8,4,4v250.411
           c0,2.2-1.809,4-4,4h-7c-2.2,0-4-1.8-4-4V203.187z"
       ></path>
@@ -40,4 +40,4 @@ const MotorRod = () => {
   );
 };
 
-export default MotorRod;
+export default StepperMotorRod;

@@ -7,11 +7,9 @@ const WaterIn = () => {
         {/* Down border line */}
         <path
           id="rect3884"
-          inkscape:connector-curvature="0"
-          sodipodi:nodetypes="cccc"
           fill="#FFFFFF"
           stroke="#000000"
-          stroke-width="2"
+          strokeWidth="2"
           d="
         M303.436,289.078v-46.14 M318.248,242.938v46.14"
         ></path>
@@ -49,11 +47,9 @@ const WaterIn = () => {
         {/* Water In entrance line */}
         <path
           id="rect3903"
-          inkscape:connector-curvature="0"
-          sodipodi:nodetypes="cccc"
           fill="#FFFFFF"
           stroke="#000000"
-          stroke-width="2"
+          strokeWidth="2"
           d="
         M202.738,213.208h82.121v14.812h-82.121"
         ></path>

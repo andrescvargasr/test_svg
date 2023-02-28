@@ -9,7 +9,7 @@ const WaterOut = () => {
           id="rect3903_1_"
           fill="#FFFFFF"
           stroke="#000000"
-          stroke-width="2"
+          strokeWidth="2"
           d="
         M515.584,227.267h-82.121v-14.812h82.121"
         ></path>
@@ -18,7 +18,7 @@ const WaterOut = () => {
           id="rect3884_1_"
           fill="#FFFFFF"
           stroke="#000000"
-          stroke-width="2"
+          strokeWidth="2"
           d="
             M396.936,297.23v-46.14 M411.748,251.091v46.14"
         ></path>

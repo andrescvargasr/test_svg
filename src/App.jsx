@@ -3,8 +3,7 @@ import reactLogo from "./assets/react.svg";
 import { ReactComponent as Bioreactor } from "./assets/bioreactor.svg";
 import "./App.css";
 // import { Bioreactor } from "./components/Bioreactor.jsx";
-import { ArrowUndo } from "./components/ArrowUndo.jsx";
-import { Bio } from "./components/Bio";
+import { Bio } from "./components/bioreactor/Bio.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -30,9 +29,6 @@ function App() {
       </div>
       <div className="bioreactor">
         <Bioreactor key="bioreactor1" />
-      </div>
-      <div className="arrow">
-        <ArrowUndo key="arrow1" />
       </div>
       <div className="bio">
         <Bio key="bio1" />
