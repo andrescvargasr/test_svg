@@ -20,7 +20,7 @@ const Liquid = () => {
         y="216"
         fill="url(#SVGID_1_)"
         stroke="#ABC837"
-        stroke-width="0.6246"
+        strokeWidth="0.6246"
         width="177.829"
         height="176"
       ></rect>

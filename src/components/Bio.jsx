@@ -3,6 +3,7 @@ import MotorRod from "./MotorRod";
 import Bessel from "./Bessel";
 import MeasureLine from "./MeasureLine";
 import SpatulaLeft from "./SpatulaLeft";
+import SpatulaRight from "./SpatulaRight";
 
 const envelope = [<Liquid />, <MotorRod />];
 
@@ -16,9 +17,8 @@ export const Bio = () => {
       {envelope}
       <Bessel />
       <g id="svg2">
-        <g id="layer1" transform="translate(-113.75,-92.8125)">
-          {/* <SpatulaLeft /> */}
-        </g>
+        <SpatulaLeft move={true} />
+        <SpatulaRight move={true} />
       </g>
       <MeasureLine />
     </svg>
