@@ -23,8 +23,28 @@ const Liquid = () => {
         strokeWidth="0.6246"
         width="177.829"
         height="176"
+        // points="154.703,216 332.532,216 332.532,392 154.703,392"
       >
         <animate
+          attributeName="y"
+          fill="freeze"
+          dur="5s"
+          repeatCount="indefinite"
+          from="216"
+          to="300"
+          values="216;300;216"
+        />
+        <animate
+          attributeName="height"
+          fill="freeze"
+          dur="5s"
+          repeatCount="indefinite"
+          from="176"
+          to="92"
+          values="176;92;176"
+        />
+
+        {/* <animate
           fill="remove"
           accumulate="none"
           repeatCount="indefinite"
@@ -37,7 +57,7 @@ const Liquid = () => {
           attributeName="d"
           begin="0s"
           from="M 237,341, L 205,341, L 201,343, L 201,357, L 205,359, L 224,355, L 237,353 Z"
-        ></animate>
+        ></animate> */}
       </rect>
     </>
   );
